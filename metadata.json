@@ -1,5 +1,5 @@
 {
-  "name": "MediScan Developer Hub",
+  "name": "MediScan v2.0.0",
   "description": "Interactive developer workspace, code browser, and structural redesign suite for on-device clinical diagnostics with automated analysis and testing logs.",
   "requestFramePermissions": [
     "camera"
