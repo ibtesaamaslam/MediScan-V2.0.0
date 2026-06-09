@@ -1,0 +1,33 @@
+{
+  "originalFilesCount": 37,
+  "findings": [
+    {
+      "file": "backend/main.py",
+      "issues": [
+        "Absence of API Rate-Limiter: vulnerable to Denial of Service (DoS)."
+      ]
+    },
+    {
+      "file": "mobile/hooks/useONNXModel.ts",
+      "issues": [
+        "No memory profiling/allocation tracing for on-device inference.",
+        "Model ingestion processes lack automatic Quantization/optimization guards, leading to high latency on lower-end devices."
+      ]
+    },
+    {
+      "file": "ml/train_skin.py",
+      "issues": [
+        "Fairness Audit: ML training does not evaluate model performance across demographic subgroups, triggering performance gaps on higher Fitzpatrick skin types.",
+        "Lack of temperature scaling or Platt calibration in training pipeline; output trust percentages are raw sigmoid values, misrepresenting real clinical certainty."
+      ]
+    },
+    {
+      "file": "General Codebase",
+      "issues": [
+        "No automated testing infrastructure or unit tests found in the entire directory.",
+        "No localized dictionaries or standard clinical workflows for translation (only standard i18n shells).",
+        "No telemetry logging, HIPAA audit compliance, or data encryption measures established."
+      ]
+    }
+  ]
+}

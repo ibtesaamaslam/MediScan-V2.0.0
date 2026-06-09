@@ -1,0 +1,8 @@
+{
+  "appName": "MediScan Local",
+  "startSkin": "Start Skin Screening",
+  "startEye": "Start Eye Screening",
+  "captureImage": "Capture Image",
+  "confidence": "Confidence",
+  "recommendation": "Recommendation"
+}

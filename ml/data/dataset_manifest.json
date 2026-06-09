@@ -1,0 +1,12 @@
+{
+  "dataset_name": "MediScan Clinical Consolidated Dataset",
+  "version": "2.0.0",
+  "total_records": 15420,
+  "modalities": ["skin", "eye"],
+  "demographic_distribution": {
+    "fitzpatrick_scale": {
+      "type_I_III": 7200,
+      "type_IV_VI": 8220
+    }
+  }
+}

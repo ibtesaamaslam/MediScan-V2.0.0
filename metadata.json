@@ -1,0 +1,10 @@
+{
+  "name": "MediScan Developer Hub",
+  "description": "Interactive developer workspace, code browser, and structural redesign suite for on-device clinical diagnostics with automated analysis and testing logs.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

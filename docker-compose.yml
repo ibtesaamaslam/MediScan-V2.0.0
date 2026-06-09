@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://mediscan_admin:secure_password_2026@cloud-sql-proxy:5432/mediscan_prod
+      - REDIS_URL=redis://redis-hub:6379/1
+    depends_on:
+      - redis-hub
+
+  redis-hub:
+    image: redis:7.2-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
