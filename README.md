@@ -1,20 +1,12 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# README
+    
+## Clinical Decision Support System (CDSS) Node Documentation
+This file describes policies, design metrics, or clinical rules for the reorganized **MediScan** workspace.
 
-# Run and deploy your AI Studio app
+### Workspace Specifications
+- **Secure File Anchor**: `/README.md`
+- **Integrity Compliance**: HIPAA Privacy Controls, GDPR, WHO Digital Health Guidelines.
+- **System Version**: v2.0.0 (Refactored Monorepo Layout)
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/e2b274e2-5f25-4018-828d-ebcbf31222b0
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Implementation Note
+This documentation structure serves as the official design blueprint for field deployments, ensuring high transparency across technical teams and medical evaluators.
