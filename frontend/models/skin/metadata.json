@@ -1,0 +1,16 @@
+{
+  "id": "skin_derm_mobilenetv3_q8",
+  "name": "Skin Dermatology Pathology Classifier",
+  "version": "1.0.4",
+  "author": "MediScan Clinical AI Lab",
+  "inputShape": [1, 3, 224, 224],
+  "normalization": {
+    "mean": [0.485, 0.456, 0.406],
+    "std": [0.229, 0.224, 0.225]
+  },
+  "plattCalibration": {
+    "A": -1.4582,
+    "B": 0.0824
+  },
+  "license": "Creative Commons Attribution-NonCommercial 4.0"
+}

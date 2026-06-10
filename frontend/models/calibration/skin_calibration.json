@@ -1,0 +1,17 @@
+{
+  "module": "skin_pathology",
+  "method": "sigmoid_platt_calibration",
+  "parameters": {
+    "slope_A": -1.4582,
+    "intercept_B": 0.0824
+  },
+  "validation_bounds": {
+    "min_expected_logit": -15.0,
+    "max_expected_logit": 15.0
+  },
+  "calibrated_classes": {
+    "0": "Seborrheic Keratosis Pathology",
+    "1": "Basal Cell Carcinoma",
+    "2": "Melanocytic Naevus"
+  }
+}

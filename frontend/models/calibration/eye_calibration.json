@@ -1,0 +1,17 @@
+{
+  "module": "eye_cataract",
+  "method": "sigmoid_platt_calibration",
+  "parameters": {
+    "slope_A": -1.3921,
+    "intercept_B": 0.0512
+  },
+  "validation_bounds": {
+    "min_expected_logit": -15.0,
+    "max_expected_logit": 15.0
+  },
+  "calibrated_classes": {
+    "0": "Nuclear Cataract Opacification",
+    "1": "Cortical Opacity",
+    "2": "Nuclear Sclerosis"
+  }
+}

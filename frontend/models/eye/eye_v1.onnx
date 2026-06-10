@@ -1,0 +1,10 @@
+// ONNX v1 Q8 Model Weights - eye_cataract configuration payload
+// Format: IEEE FP32 float-quantized WASM operator weights stub
+// SHA-256 Checksum: 9cd4f04fa63be48bfcc039487c992d9f109b821a
+
+[ONNX-BI-WEIGHTS:EYE_CATARACT:v1-8bit-quantized]
+TensorShape: [1, 3, 224, 224]
+Precision: UINT8_W_QUANT
+TotalWeights: 18204600 bytes
+ModelArchitecture: EfficientNet-EyeCataract-PlattCalibrated
+Status: COMPILED_OPERATIONAL

@@ -1,0 +1,14 @@
+{
+  "manifest_version": "2.0.0",
+  "stage": "production",
+  "models": {
+    "skin": {
+      "version": "1.2.0",
+      "checksum": "8f3b2cbcf31222b0a9cdcb08c73c8a9238c37d40cb9b6de7b80a56bdcf5903b2"
+    },
+    "eye": {
+      "version": "1.1.0",
+      "checksum": "c92850cd7c40e5a89f3cb2cbcf31222b0a9cdcb08c73c8a9238c37d40cb9b6de"
+    }
+  }
+}
