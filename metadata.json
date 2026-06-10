@@ -1,6 +1,6 @@
 {
-  "name": "MediScan Developer Hub",
-  "description": "Interactive developer workspace, code browser, and structural redesign suite for on-device clinical diagnostics with automated analysis and testing logs.",
+  "name": "MediScan Local — Public Free Version",
+  "description": "A simple offline public health diagnostic helper for skin and eye symptom screenings. Free, fast, and secure on-device analytics.",
   "requestFramePermissions": [
     "camera"
   ],
